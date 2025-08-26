@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-22 11:04:35.128975",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "column_break_eegc",
+  "month",
+  "column_break_idqh",
+  "posting_date",
+  "section_break_vpyb",
+  "salary_slips_list",
+  "amended_from",
+  "section_break_wivu",
+  "is_pay_slip_issue"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_eegc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Month",
+   "options": "\nBaisakh\nJestha\nAshadh\nShrawan\nBhadra\nAshwin\nKartik\nMangsir\nPoush\nMagh\nFalgun\nChaitra",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_idqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vpyb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "salary_slips_list",
+   "fieldtype": "HTML",
+   "label": "Salary Slips List"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Posting Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bulk Payroll",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_wivu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_pay_slip_issue",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is Pay Slip Issue"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Year",
+   "options": "\n2080\n2081\n2082\n2083\n2084\n2085\n2086\n2087\n2088\n2089\n2090\n2091\n2092\n2093\n2094\n2095\n2096\n2097\n2098\n2099",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "is_virtual": 1,
+ "links": [],
+ "modified": "2025-08-24 17:58:11.952671",
+ "modified_by": "Administrator",
+ "module": "Hrms Customize",
+ "name": "Bulk Payroll",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

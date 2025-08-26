@@ -88,11 +88,14 @@ app_license = "unlicense"
 # before_install = "hrms_customize.install.before_install"
 # after_install = "hrms_customize.install.after_install"
 
+after_install = "hrms_customize.install.after_install"
+
 # Uninstallation
 # ------------
 
 # before_uninstall = "hrms_customize.uninstall.before_uninstall"
 # after_uninstall = "hrms_customize.uninstall.after_uninstall"
+
 
 # Integration Setup
 # ------------------
@@ -237,3 +240,17 @@ app_license = "unlicense"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+override_doctype_class = {
+    "Payroll Entry": "hrms_customize.overrides.payroll_entry.CustomPayrollEntry",
+    "Salary Slip": "hrms_customize.overrides.salary_slip.CustomSalarySlip"
+}
+website_route_rules = [
+    {"from_route": "/app/salary-structure", "to_route": "/app/employee-salary-structure"}
+]
+
+
+
+fixtures = [
+    {"dt": "Workspace", "filters": [["name", "=", "Salary Payout"]]}
+]
