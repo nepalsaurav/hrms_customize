@@ -17,8 +17,6 @@ STATUS_MAP = {
 
 
 @frappe.whitelist()  # ← This makes it callable from client-side
-
-
 def sync_attendance(year, month):
     if not year:
         frappe.throw(_("Year is required"))
@@ -27,7 +25,8 @@ def sync_attendance(year, month):
 
     # Convert Nepali month to AD
     start_bs = nepali_datetime.date(int(year), NEPALI_MONTH_MAP[month], 1)
-    end_bs = nepali_datetime.date(int(year), NEPALI_MONTH_MAP[month], _days_in_month(int(year), NEPALI_MONTH_MAP[month]))
+    end_bs = nepali_datetime.date(int(year), NEPALI_MONTH_MAP[month], _days_in_month(
+        int(year), NEPALI_MONTH_MAP[month]))
 
     start_ad = start_bs.to_datetime_date()  # date object
     end_ad = end_bs.to_datetime_date()      # date object
@@ -43,7 +42,8 @@ def sync_attendance(year, month):
         attendance = get_employee_attendance(y, m)
 
         for device_id, records in attendance.items():
-            employee_exist = frappe.db.exists("Employee", {"attendance_device_id": device_id})
+            employee_exist = frappe.db.exists(
+                "Employee", {"attendance_device_id": device_id})
             if not employee_exist:
                 employee_biometric_not_exist.add(records[0]['employee_name'])
                 continue
@@ -57,14 +57,16 @@ def sync_attendance(year, month):
                     continue
 
                 attendance_exist = frappe.db.exists(
-                    "Attendance", {"employee": employee.name, "attendance_date": check_date}
+                    "Attendance", {"employee": employee.name,
+                                   "attendance_date": check_date}
                 )
 
                 status = "Present" if record["status"] == "P" else "Absent"
 
                 if attendance_exist:
                     # Update existing record
-                    attendance_doc = frappe.get_doc("Attendance", attendance_exist)
+                    attendance_doc = frappe.get_doc(
+                        "Attendance", attendance_exist)
                     try:
                         attendance_doc.status = status
                         attendance_doc.save()
@@ -72,25 +74,30 @@ def sync_attendance(year, month):
                         continue
                 else:
                     # Create new record
-                    frappe.get_doc({
-                        "doctype": "Attendance",
-                        "employee": employee.name,
-                        "attendance_date": check_date,
-                        "status": status
-                    }).insert()
+                    try:
+                        frappe.get_doc({
+                            "doctype": "Attendance",
+                            "employee": employee.name,
+                            "attendance_date": check_date,
+                            "status": status
+                        }).insert()
+                    except:
+                        continue
 
         # Update progress
         progress_percent = int((i + 1) / total_days * 100)
-        frappe.publish_progress(progress_percent, title="Syncing attendance...")
+        frappe.publish_progress(
+            progress_percent, title="Syncing attendance...")
 
     # Build message
     message = "Successfully synced attendance.<br><br>"
     if employee_biometric_not_exist:
         message += "Following Employee attendance IDs are not mapped to Employee Records, please map!<br><br>"
-        message += "<ul>" + "".join([f"<li>{emp}</li>" for emp in employee_biometric_not_exist]) + "</ul>"
+        message += "<ul>" + \
+            "".join(
+                [f"<li>{emp}</li>" for emp in employee_biometric_not_exist]) + "</ul>"
 
     return frappe.msgprint(message)
-
 
 
 def get_year_month_list(start_ad, end_ad):
