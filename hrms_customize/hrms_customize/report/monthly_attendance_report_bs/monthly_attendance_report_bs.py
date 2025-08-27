@@ -2,6 +2,8 @@
 # For license information, please see license.txt
 
 # import frappe
+import math
+from types import SimpleNamespace
 from frappe import _
 import frappe
 from frappe.auth import date_diff
@@ -11,14 +13,14 @@ import nepali_datetime
 
 
 status_map = {
-	"Present": "P",
-	"Absent": "A",
-	"Half Day/Other Half Absent": "HD/A",
-	"Half Day/Other Half Present": "HD/P",
-	"Work From Home": "WFH",
-	"On Leave": "L",
-	"Holiday": "H",
-	"Weekly Off": "WO",
+    "Present": "P",
+    "Absent": "A",
+    "Half Day/Other Half Absent": "HD/A",
+    "Half Day/Other Half Present": "HD/P",
+    "Work From Home": "WFH",
+    "On Leave": "L",
+    "Holiday": "H",
+    "Weekly Off": "WO",
 }
 
 
@@ -58,8 +60,6 @@ def get_columns(filters) -> list[dict]:
             "fieldtype": "Data",
         },
     ]
-
-    reversed_dict = {v: k for k, v in NEPALI_MONTH_MAP.items()}
 
     for i in range(working_days):
         day = add_days(start_date_ad, i)
@@ -129,7 +129,6 @@ def get_data(filters) -> list[list]:
         day = add_days(start_date_ad, i)
         for attendance in attendance_list:
             if attendance.attendance_date == day:
-                frappe.log(attendance.status)
                 return_dict[attendance.employee][day] = status_map[attendance.status]
             elif day in holiday_list:
                 if day.weekday() == 5:
@@ -137,10 +136,11 @@ def get_data(filters) -> list[list]:
                 else:
                     return_dict[attendance.employee][day] = "H"
             else:
-                return_dict[attendance.employee][day] = "A"
+                if not day in return_dict[attendance.employee]:
+                    return_dict[attendance.employee][day] = "A"
 
     items = []
-    
+
     for _, value in return_dict.items():
         d = list(value.values())
         items.append(d)
@@ -168,3 +168,51 @@ def get_year_month():
         "year": today_date.year,
         "month": reversed_dict[today_date.month]
     }
+
+
+@frappe.whitelist()
+def convert_nepali_to_ad(date):
+    year, month, day = map(int, date.split("-"))
+    bs_date = nepali_datetime.date(year, month, day)
+    ad_date = bs_date.to_datetime_date().strftime("%Y-%m-%d")
+    return ad_date
+
+
+@frappe.whitelist()
+def submit_attendance(year, month):
+    start_date_ad, end_date_ad = get_from_date_and_end_date(
+        SimpleNamespace(year=year, month=month)
+    )
+
+    Attendance = frappe.qb.DocType("Attendance")
+    Employee = frappe.qb.DocType("Employee")
+    attendance_query = (
+        frappe.qb.from_(Attendance)
+        .join(Employee)
+        .on(Employee.name == Attendance.employee)
+        .select(
+            Attendance.name,
+            Attendance.employee,
+            Employee.employee_name,
+            Attendance.attendance_date,
+            Attendance.status,
+        )
+        .where(
+            Attendance.attendance_date.between(
+                start_date_ad, end_date_ad)
+        )
+    )
+    attendance_list = attendance_query.run(as_dict=True)
+    length = len(attendance_list)
+    for index, value in enumerate(attendance_list):
+        attendance = frappe.get_doc("Attendance", value.name)
+        try:
+            attendance.submit()
+        except:
+            pass
+       
+        percent = math.ceil(((index + 1) / length) * 100)
+        frappe.publish_progress(percent, title="Submitting...")
+    
+    frappe.publish_progress(100, title="Submitting...")
+    return "success"

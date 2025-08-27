@@ -24,7 +24,6 @@ def set_salary_component():
     create_account_if_not_exist(
         account_name="SSF Payabele",
         parent_account="Duties and Taxes - ASP",
-        account_type="Payable",
         root_type="Liability",
         report_type="Balance Sheet",
         is_group=False,
@@ -33,7 +32,14 @@ def set_salary_component():
     create_account_if_not_exist(
         account_name="Salary TDS Payabele",
         parent_account="Duties and Taxes - ASP",
-        account_type="Payable",
+        root_type="Liability",
+        report_type="Balance Sheet",
+        is_group=False,
+    )
+    
+    create_account_if_not_exist(
+        account_name="TDS Payabele",
+        parent_account="Duties and Taxes - ASP",
         root_type="Liability",
         report_type="Balance Sheet",
         is_group=False,
@@ -42,14 +48,32 @@ def set_salary_component():
     create_account_if_not_exist(
         account_name="Salary SST Payabele",
         parent_account="Duties and Taxes - ASP",
-        account_type="Payable",
         root_type="Liability",
         report_type="Balance Sheet",
         is_group=False,
     )
     
     create_account_if_not_exist(
-        account_name="SSF Expenses",
+        account_name="SSF & PF Expenses",
+        parent_account="Indirect Expenses - ASP",
+        account_type="Indirect Expense",
+        root_type="Expense",
+        report_type="Profit & Loss",
+        is_group=False,
+    )
+    
+    
+    create_account_if_not_exist(
+        account_name="Staff Salaries",
+        parent_account="Indirect Expenses - ASP",
+        account_type="Indirect Expense",
+        root_type="Expense",
+        report_type="Profit & Loss",
+        is_group=False,
+    )
+    
+    create_account_if_not_exist(
+        account_name="Contract Staff Salaries",
         parent_account="Indirect Expenses - ASP",
         account_type="Indirect Expense",
         root_type="Expense",
@@ -77,7 +101,7 @@ def set_salary_component():
             "account": "Salary TDS Payabele - ASP"},
         {"name": "Social Security Tax", "abbr": "SST", "type": "Deduction",
             "account": "Salary TDS Payabele - ASP"},
-        {"name": "Company SSF Contribution", "abbr": "CSF", "type": "Earning", "account": "SSF Expenses - ASP", }
+        {"name": "Company SSF Contribution", "abbr": "CSF", "type": "Earning", "account": "SSF & PF Expenses - ASP", }
     ]
     global_default = frappe.get_doc("Global Defaults")
     for component in new_components:

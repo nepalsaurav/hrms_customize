@@ -249,8 +249,3 @@ website_route_rules = [
     {"from_route": "/app/salary-structure", "to_route": "/app/employee-salary-structure"}
 ]
 
-
-
-fixtures = [
-    {"dt": "Workspace", "filters": [["name", "=", "Salary Payout"]]}
-]

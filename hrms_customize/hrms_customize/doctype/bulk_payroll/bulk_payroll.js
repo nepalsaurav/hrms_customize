@@ -13,6 +13,17 @@ frappe.ui.form.on("Bulk Payroll", {
 		}
 
 		if (frm.doc.docstatus === 1) {
+			frm.add_custom_button(__("Create Journal Entry"), () => {
+				frappe.call({
+					doc: frm.doc,
+					method: "create_journal_entry",
+					callback: (r) => {
+						console.log(r.message);
+						frappe.set_route("Form", "Journal Entry", r.message)
+					},
+				});
+			}).addClass("btn-primary");
+
 			frm.add_custom_button(__("Cancel"), () => {
 				frappe.confirm("Are you sure want to cancel", () => {
 					frm.save("Cancel");
@@ -61,7 +72,7 @@ frappe.ui.form.on("Bulk Payroll", {
 					method: "submit_document",
 					callback: () => {
 						frm.remove_custom_button("Submit");
-						frappe.msgprint(__('Salary Slips submited successfully'));
+						frappe.msgprint(__("Salary Slips submited successfully"));
 					},
 				});
 			});

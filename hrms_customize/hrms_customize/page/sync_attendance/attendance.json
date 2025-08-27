@@ -1,0 +1,3613 @@
+{
+    "101": [
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-24",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Purushottam Parajuli",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "105": [
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bharat Prasad Bhattarai",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "108": [
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Menuka Shrestha",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "113": [
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Ujjwal Gajurel",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "117": [
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-24",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Shiva Bahadur Sapkota",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "123": [
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Kapil Agrawal",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "125": [
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bhushan Prasad Paudyal",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "128": [
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-24",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Geeta Timilsina",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "137": [
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Bikash Kumar Shukla",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "138": [
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-24",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Jigyasha Ghimire",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "140": [
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Prakash Shrestha",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "144": [
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurav Nepal",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "151": [
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-24",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Saurab Agrawal",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "159": [
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Namrata Sapkota",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "163": [
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-24",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Rashmita Dahal",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "164": [
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sujan Acharya",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "165": [
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-13",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Anuska Shrestha",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "167": [
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-11",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-12",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-14",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-15",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-17",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-18",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-19",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-20",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-21",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Aashish Shakya",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "173": [
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-01",
+            "status": "P"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-03",
+            "status": "P"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-04",
+            "status": "P"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-05",
+            "status": "P"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-06",
+            "status": "P"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-07",
+            "status": "P"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-08",
+            "status": "P"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-24",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Diya Shahi",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "178": [
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Binita Sapkota",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "179": [
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Juna Subedi Jaisee",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "180": [
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-22",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-25",
+            "status": "P"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Sapana Magar",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ],
+    "181": [
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-01",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-02",
+            "status": "W"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-03",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-04",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-05",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-06",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-07",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-08",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-09",
+            "status": "W"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-10",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-11",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-12",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-13",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-14",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-15",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-16",
+            "status": "W"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-17",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-18",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-19",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-20",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-21",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-22",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-23",
+            "status": "W"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-24",
+            "status": "P"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-25",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-26",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-27",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-28",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-29",
+            "status": "A"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-30",
+            "status": "W"
+        },
+        {
+            "employee_name": "Vinnie Karki",
+            "date": "2025-08-31",
+            "status": "A"
+        }
+    ]
+}

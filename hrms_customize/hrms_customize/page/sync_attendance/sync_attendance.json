@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2025-08-26 09:46:02.316861",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-08-26 09:46:02.316861",
+ "modified_by": "Administrator",
+ "module": "Hrms Customize",
+ "name": "sync-attendance",
+ "owner": "Administrator",
+ "page_name": "sync-attendance",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Sync Attendance"
+}

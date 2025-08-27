@@ -4,7 +4,7 @@
 # import frappe
 import time
 import math
-from frappe.auth import date_diff
+from frappe.auth import date_diff, today
 from frappe.database.database import getdate
 from frappe.model.document import Document
 import frappe
@@ -61,20 +61,21 @@ class BulkPayroll(Document):
         pass
 
     def on_cancel(self):
-        salays_slips = frappe.get_all("Salary Slip", {"payroll_entry": self.name})
+        salays_slips = frappe.get_all(
+            "Salary Slip", {"payroll_entry": self.name})
         for name in salays_slips:
             salary_slip = frappe.get_doc("Salary Slip", name)
             salary_slip.cancel()
         payroll_entry = frappe.get_doc("Payroll Entry", self.name)
         payroll_entry.cancel()
-        
 
     def delete(self):
         if self.docstatus == 1:
             frappe.throw(frappe._(
                 "Submitable document can not be deleted, you need to first cancel it"))
-        
-        salays_slips = frappe.get_all("Salary Slip", {"payroll_entry": self.name})
+
+        salays_slips = frappe.get_all(
+            "Salary Slip", {"payroll_entry": self.name})
         for name in salays_slips:
             salary_slip = frappe.get_doc("Salary Slip", name)
             salary_slip.delete()
@@ -84,7 +85,8 @@ class BulkPayroll(Document):
     @frappe.whitelist()
     def submit_document(self):
         self._set_from_date_and_end_date()
-        payroll_entry = frappe.get_doc("Payroll Entry",  {"start_date": self.start_date, "end_date": self.end_date})
+        payroll_entry = frappe.get_doc(
+            "Payroll Entry",  {"start_date": self.start_date, "end_date": self.end_date})
         payroll_entry.flags.ignore_mandatory = True
         payroll_entry.submit()
         salary_slip = frappe.get_all(
@@ -142,7 +144,8 @@ class BulkPayroll(Document):
         self._validate_holiday_exist()
         # need to validate salary strucute is not assign or not
         self._validate_payroll_structure_exist()
-        payroll_entry_exist = frappe.db.exists("Payroll Entry", {"start_date": self.start_date, "end_date": self.end_date})
+        payroll_entry_exist = frappe.db.exists(
+            "Payroll Entry", {"start_date": self.start_date, "end_date": self.end_date})
         if not payroll_entry_exist:
             payroll_entry = frappe.get_doc({
                 "doctype": "Payroll Entry",
@@ -179,11 +182,11 @@ class BulkPayroll(Document):
                 .select(SalarySlip.name)
                 .where(
                     (SalarySlip.employee == employee["name"])
-                    &(SalarySlip.start_date == self.start_date)
-                    &(SalarySlip.end_date == self.end_date)
+                    & (SalarySlip.start_date == self.start_date)
+                    & (SalarySlip.end_date == self.end_date)
                 )
             ).run(as_dict=True)
-            
+
             if len(is_exist) == 0:
                 salary_slip_doc = frappe.get_doc({
                     "doctype": "Salary Slip",
@@ -354,6 +357,158 @@ class BulkPayroll(Document):
         is_exist = frappe.db.exists("Holiday List", {
                                     "from_date": fiscal_year[0].year_start_date, "to_date": fiscal_year[0].year_end_date})
         return is_exist
+
+    @frappe.whitelist()
+    def create_journal_entry(self):
+        journal_entry_exist = frappe.db.exists("Journal Entry", {"cheque_no": self.name})
+        if journal_entry_exist:
+            return journal_entry_exist
+        staff_salaries = {"KTM": 0, "DRN": 0, "BRJ": 0, "Contract": 0}
+        ssf_expenses = {"KTM": 0, "DRN": 0, "BRJ": 0}
+        ssf_payable_staff = {"KTM": 0, "DRN": 0, "BRJ": 0}
+        tds_payable_on_salary = 0
+        tds_payable_on_contract = 0
+        payroll_payable = 0
+
+        # Get employees linked to this payroll
+        employee_list = frappe.db.get_all(
+            "Employee", fields=["name", "branch", "employment_type"]
+        )
+
+        for emp in employee_list:
+            # Fetch salary slip for this payroll entry
+            salary_slip = frappe.get_value(
+                "Salary Slip",
+                {"employee": emp["name"], "payroll_entry": self.name},
+                "name",
+            )
+            if not salary_slip:
+                continue
+
+            salary_slip = frappe.get_doc("Salary Slip", salary_slip)
+
+            # Earnings
+            for earning in salary_slip.earnings:
+                if emp["employment_type"] == "Contract":
+                    staff_salaries["Contract"] += earning.amount
+                elif emp["branch"] == "DRN":
+                    staff_salaries["DRN"] += earning.amount
+                elif emp["branch"] == "BRJ":
+                    staff_salaries["BRJ"] += earning.amount
+                else:
+                    staff_salaries["KTM"] += earning.amount
+
+            # Deductions
+            for deduction in salary_slip.deductions:
+                if deduction.salary_component == "Social Security Fund":
+                    base = (deduction.amount / 0.11) * 0.20
+                    if emp["branch"] == "DRN":
+                        ssf_payable_staff["DRN"] += deduction.amount
+                        ssf_expenses["DRN"] += base
+                    elif emp["branch"] == "BRJ":
+                        ssf_payable_staff["BRJ"] += deduction.amount
+                        ssf_expenses["BRJ"] += base
+                    else:
+                        ssf_payable_staff["KTM"] += deduction.amount
+                        ssf_expenses["KTM"] += base
+
+                elif deduction.salary_component in ["Social Security Tax", "Salary TDS"]:
+                    if emp["employment_type"] == "Contract":
+                        tds_payable_on_contract += deduction.amount
+                    else:
+                        tds_payable_on_salary += deduction.amount
+
+            payroll_payable += salary_slip.net_pay
+
+        
+
+        journal_entries = frappe.new_doc("Journal Entry")
+        journal_entries.posting_date = today()
+        journal_entries.user_remark = f"Payroll Entry for {self.month} {self.year}"
+
+        for branch, amount in staff_salaries.items():
+            if amount == 0:
+                continue
+            narration = f"Staff Salaries for the Month of {self.month}, {self.year} -{branch}"
+            if branch == "Contact":
+                journal_entries.append("accounts",
+                    {
+                        "account": "Contract Staff Salaries - ASP",
+                        "debit_in_account_currency": amount,
+                        "user_remark": narration
+                    }
+                )
+            else:
+                journal_entries.append("accounts",
+                    {
+                        "account": "Staff Salaries - ASP",
+                        "debit_in_account_currency": amount,
+                        "user_remark": narration
+                    }
+                )
+
+        for branch, amount in ssf_expenses.items():
+            if amount == 0:
+                continue
+            journal_entries.append("accounts",
+                {
+                    "account": "SSF & PF Expenses - ASP",
+                    "debit_in_account_currency": amount,
+                    "user_remark": f"SSF Contribution for the Month of {self.month}, {self.year} - {branch}"
+                }
+            )
+            journal_entries.append("accounts",
+                {
+                    "account": "SSF Payabele - ASP",
+                    "credit_in_account_currency": amount,
+                    "user_remark": f"SSF Contribution for the Month of {self.month}, {self.year} - {branch}"
+                }
+            )
+        for branch, amount in ssf_payable_staff.items():
+            if amount == 0:
+                continue
+            journal_entries.append("accounts",
+                {
+                    "account": "SSF Payabele - ASP",
+                    "credit_in_account_currency": amount,
+                    "user_remark": f"SSF Staff Contribution for the Month of {self.month}, {self.year} - {branch}",
+                    
+                }
+            )
+
+        if tds_payable_on_salary > 0:
+            journal_entries.append("accounts",
+                {
+                    "account": "Salary TDS Payabele - ASP",
+                    "credit_in_account_currency":tds_payable_on_salary,
+                    "user_remark": f"TDS on Staff Salaries for the Month of {self.month}, {self.year}"
+                }
+            )
+        
+        if tds_payable_on_contract > 0:
+            journal_entries.append("accounts",
+                {
+                    "account": "TDS Payabele - ASP",
+                    "credit_in_account_currency":tds_payable_on_contract,
+                    "user_remark": f"TDS on Contact Staff Salaries for the Month of {self.month}, {self.year}"
+                }
+            )
+        
+        if payroll_payable > 0:
+            journal_entries.append("accounts",
+                {
+                    "account": "Payroll Payable - ASP",
+                    "credit_in_account_currency": payroll_payable,
+                    "user_remark": f"TDS on Staff Salaries for the Month of {self.month}, {self.year}"
+                }
+            )
+        
+        journal_entries.cheque_no = self.name
+        journal_entries.cheque_date = today()
+        journal_entries.insert()
+        frappe.log(journal_entries)
+        
+        return journal_entries.name
 
 
 def get_default_company():
