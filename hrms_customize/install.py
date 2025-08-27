@@ -147,3 +147,8 @@ def set_payroll_settings():
     doc = frappe.get_doc("Payroll Settings")
     doc.include_holidays_in_total_working_days = 1
     doc.save()
+
+
+fixtures = [
+    {"dt": "Workspace", "filters": [["title", "in", ["Salary Payout", "Shift & Attendance"]]]}
+]
