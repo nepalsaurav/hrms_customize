@@ -65,8 +65,12 @@ def sync_attendance(year, month):
                 if attendance_exist:
                     # Update existing record
                     attendance_doc = frappe.get_doc("Attendance", attendance_exist)
-                    attendance_doc.status = status
-                    attendance_doc.save()
+                    try:
+                        if attendance_doc.status != "Present":
+                            attendance_doc.status = status
+                            attendance_doc.save()
+                    except:
+                        pass
                 else:
                     # Create new record
                     frappe.get_doc({
