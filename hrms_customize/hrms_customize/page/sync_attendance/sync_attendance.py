@@ -66,9 +66,8 @@ def sync_attendance(year, month):
                     # Update existing record
                     attendance_doc = frappe.get_doc("Attendance", attendance_exist)
                     try:
-                        if attendance_doc.status != "Present" or attendance_doc.status == "On Leave":
-                            attendance_doc.status = status
-                            attendance_doc.save()
+                        attendance_doc.status = status
+                        attendance_doc.save()
                     except:
                         continue
                 else:
