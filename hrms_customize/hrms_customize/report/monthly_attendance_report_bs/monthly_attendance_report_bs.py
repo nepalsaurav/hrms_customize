@@ -10,6 +10,7 @@ from frappe.auth import date_diff
 from frappe.email.receive import add_days
 from hrms_customize.hrms_customize.doctype.bulk_payroll.bulk_payroll import NEPALI_MONTH_MAP, get_month_end
 import nepali_datetime
+from frappe.utils.data import add_days, date_diff, getdate
 
 
 status_map = {
@@ -76,76 +77,63 @@ def get_columns(filters) -> list[dict]:
 
 
 def get_data(filters) -> list[list]:
-    """Return data for the report.
-
-    The report data is a list of rows, with each row being a list of cell values.
-    """
+    """Return data for the report."""
     start_date_ad, end_date_ad = get_from_date_and_end_date(filters)
 
     Attendance = frappe.qb.DocType("Attendance")
     Employee = frappe.qb.DocType("Employee")
     Holiday = frappe.qb.DocType("Holiday")
-    attendance_query = (
+
+    # Fetch attendance
+    attendance_list = (
         frappe.qb.from_(Attendance)
-        .join(Employee)
-        .on(Employee.name == Attendance.employee)
+        .join(Employee).on(Employee.name == Attendance.employee)
         .select(
             Attendance.employee,
             Employee.employee_name,
             Attendance.attendance_date,
             Attendance.status,
         )
-        .where(
-            Attendance.attendance_date.between(
-                start_date_ad, end_date_ad)
-        )
+        .where(Attendance.attendance_date.between(start_date_ad, end_date_ad))
+        .run(as_dict=True)
     )
-    attendance_list = attendance_query.run(as_dict=True)
 
-    holiday_query = (
+    # Fetch holidays
+    holiday_list = (
         frappe.qb.from_(Holiday)
-        .select(
-            Holiday.holiday_date,
-            Holiday.description
-        )
-        .where(
-            Holiday.holiday_date.between(start_date_ad, end_date_ad)
-        )
+        .select(Holiday.holiday_date)
+        .where(Holiday.holiday_date.between(start_date_ad, end_date_ad))
+        .run(as_dict=True)
     )
-    holiday_list = holiday_query.run(as_dict=True)
+    holiday_dates = {getdate(h.holiday_date) for h in holiday_list}
 
-    holiday_list = [h.holiday_date for h in holiday_list]
-
-    return_dict = {}
-
-    for attendance in attendance_list:
-        return_dict[attendance.employee] = {
-            "employee": attendance.employee,
-            "employee_name": attendance.employee_name
+    # Preprocess attendance for faster lookup
+    attendance_map = {}
+    employee_info = {}
+    for att in attendance_list:
+        attendance_map[(att.employee, getdate(att.attendance_date))] = status_map.get(att.status, "A")
+        employee_info[att.employee] = {
+            "employee": att.employee,
+            "employee_name": att.employee_name
         }
 
+    # Prepare return_dict
+    return_dict = {}
     working_days = date_diff(end_date_ad, start_date_ad) + 1
-    for i in range(working_days):
-        day = add_days(start_date_ad, i)
-        for attendance in attendance_list:
-            if attendance.attendance_date == day:
-                return_dict[attendance.employee][day] = status_map[attendance.status]
-            elif day in holiday_list:
-                if day.weekday() == 5:
-                    return_dict[attendance.employee][day] = "WO"
-                else:
-                    return_dict[attendance.employee][day] = "H"
+    for emp in employee_info:
+        return_dict[emp] = employee_info[emp].copy()
+        for i in range(working_days):
+            day = add_days(start_date_ad, i)
+            
+            if day.weekday() == 5:  # Saturday
+                return_dict[emp][day] = "WO"
+            elif day in holiday_dates:
+                return_dict[emp][day] = "H"
             else:
-                if not day in return_dict[attendance.employee]:
-                    return_dict[attendance.employee][day] = "A"
+                return_dict[emp][day] = attendance_map.get((emp, day), "A")
 
-    items = []
-
-    for _, value in return_dict.items():
-        d = list(value.values())
-        items.append(d)
-
-    frappe.log(items)
+    # Convert to list of rows
+    items = [list(emp_data.values()) for emp_data in return_dict.values()]
     return items
 
 
